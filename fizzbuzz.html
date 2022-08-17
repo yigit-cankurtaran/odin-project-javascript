@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <script>
+let user_num = window.prompt("Please enter a number.");
+
+function fizzbuzz(num){
+  for (let result = 1; result <= num; result++){
+    let a = result % 3 == 0;
+    let b = result % 5 == 0;
+    if (a && b) console.log("fizzbuzz");
+    else if (a) console.log("fizz");
+    else if (b) console.log("buzz");
+    else console.log(result);
+  }
+}
+
+fizzbuzz(user_num);
+      
+    </script>
+  
+  </body>
+</html>
