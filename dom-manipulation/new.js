@@ -16,6 +16,10 @@ container.appendChild(newH);
 
 // adding the third (black border, pink background <div>) element
 const newDiv = document.createElement('div');
-newDiv.textContent = "Trial.";
 newDiv.setAttribute('style', 'border-style: solid; border-color: black; background-color: pink;');
 container.appendChild(newDiv);
+
+// adding the first element (<h1>) under the newDiv
+const underH = document.createElement('h1');
+underH.textContent = "I'm in a div";
+newDiv.appendChild(underH);
