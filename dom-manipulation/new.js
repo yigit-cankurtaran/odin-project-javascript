@@ -1,3 +1,7 @@
+// writing in the container element.
+const container = document.querySelector('#container');
+
+
 // adding the first (red <p>) bullet point
 const newP = document.createElement('p');
 newP.setAttribute('style', 'color: red;');
