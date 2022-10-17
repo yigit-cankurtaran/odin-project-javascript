@@ -25,6 +25,16 @@ let newText = document.createTextNode("This just got added.");
 newDiv.appendChild(newText);
 let anotherText = document.createTextNode("\tHello this is the 2nd addition.");
 newDiv.appendChild(anotherText);
-// gives an error when you do it this way.
+// newDiv.textContent = "This should be another way.";
+// the one above replaces the entire text inside the div.
+// gives an error when you do it the way I did under this line.
 // document.appendChild(newDiv);
 document.body.appendChild(newDiv);
+
+const container = document.querySelector("#container");
+console.log(container);
+const containerText = container.innerHTML;
+console.log(containerText);
+
+const divs = document.querySelectorAll("div");
+console.log(divs);
