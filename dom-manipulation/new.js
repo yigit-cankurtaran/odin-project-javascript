@@ -23,3 +23,8 @@ container.appendChild(newDiv);
 const underH = document.createElement('h1');
 underH.textContent = "I'm in a div";
 newDiv.appendChild(underH);
+
+// adding the second element (<p>) under the newDiv
+const underP = document.createElement('p');
+underP.textContent = "ME TOO!";
+newDiv.appendChild(underP);
