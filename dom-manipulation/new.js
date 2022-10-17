@@ -15,3 +15,6 @@ newH.textContent = "I'm a blue h3!";
 container.appendChild(newH);
 
 // adding the third (black border, pink background <div>) element
+const newDiv = document.createElement('div');
+newDiv.setAttribute('style', 'border-color: black; background-color: pink;');
+container.appendChild(newDiv);
