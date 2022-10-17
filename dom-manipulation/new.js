@@ -16,5 +16,6 @@ container.appendChild(newH);
 
 // adding the third (black border, pink background <div>) element
 const newDiv = document.createElement('div');
-newDiv.setAttribute('style', 'border-color: black; background-color: pink;');
+newDiv.textContent = "Trial.";
+newDiv.setAttribute('style', 'border-style: solid; border-color: black; background-color: pink;');
 container.appendChild(newDiv);
