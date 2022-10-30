@@ -17,7 +17,7 @@ document.body.appendChild(btn);
 // created the button.
 btn.onclick = () => document.body.setAttribute("style", "background-color: black; color: white;");
 btn.onclick = () => alert("anan");
-// it does whatever the setAttribute element says.
+// it does whatever the last element says.
 // because it manipulates the html of the button element itself, doesn't add a new function to the code.
 btn.onclick = () => document.body.style.backgroundColor == "white" ? document.body.setAttribute("style", "background-color: black") : document.body.setAttribute("style", "background-color: white");
 // this is how i could implement a dark mode.
